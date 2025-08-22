@@ -24,9 +24,14 @@ fn binary_search(arr: &[usize], target: usize) -> Option<usize> {
 }
 
 
-fn main() {
+/**
+ * Binary Search
+ * Time Complexity: O(log n)
+ * Space Complexity: O(1)
+ * 
+Example:
     let arr = [1, 2, 3, 4, 5];
     let target = 3;
     let result = binary_search(&arr, target);
     println!("Result: {:?}", result.unwrap());
-}
+ */
