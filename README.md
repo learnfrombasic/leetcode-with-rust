@@ -23,6 +23,7 @@ This repository contains my solutions to LeetCode problems implemented in Rust, 
 | ---------- | ------------- | ---------------------- | ---------------------- |
 | 2025-08-22 | Binary Search | ./dsa/binary/search.rs | ./dsa/binary/search.rs |
 | 2025-08-22 | Linked List   | ./dsa/linked_list.rs   | ./dsa/linked_list.rs   |
+| 2025-08-24 | Binary Tree   | ./dsa/binary/tree.rs   | ./dsa/binary/tree.rs   |
 |            |               |                        |                        |
 
 _Note:_ More experiments will be added, you gyes can refer to [TODO.md](assets/TODO.md) for more details.

@@ -7,11 +7,7 @@ struct Node {
 
 impl Node {
     fn new(key: i32) -> Self {
-        Node {
-            key,
-            left: None,
-            right: None,
-        }
+        Node { key, left: None, right: None }
     }
 
     fn insert(&mut self, key: i32) {
@@ -73,20 +69,4 @@ impl Node {
             }
         }
     }
-}
-
-fn main() {
-    let mut root = Box::new(Node::new(50));
-    root.insert(30);
-    root.insert(70);
-    root.insert(20);
-    root.insert(40);
-    root.insert(60);
-    root.insert(80);
-
-    println!("Search 40: {}", root.search(40)); // true
-    println!("Search 90: {}", root.search(90)); // false
-
-    root = root.delete(70).unwrap();
-    println!("Deleted 70, Search 70: {}", root.search(70)); // false
 }
